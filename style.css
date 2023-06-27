@@ -77,6 +77,8 @@ blockquote {
   margin: 0 auto;
 }
 
+/* == Navbar == */
+
 .navbar {
   padding: 1rem 0;
 }
@@ -92,6 +94,8 @@ blockquote {
   margin-right: auto;
 }
 
+/* == Hero == */
+
 .hero {
   display: flex;
   padding: 10rem 0 13rem;
@@ -104,6 +108,7 @@ blockquote {
 
 .hero > img {
   width: 50%;
+  border-radius: 1rem;
 }
 
 .btn-cta {
@@ -111,4 +116,40 @@ blockquote {
   padding: 0.6em 2em;
   border-radius: 0.5em;
   margin-top: 1rem;
+}
+
+/* == Feature == */
+
+.feature {
+  margin: 3rem 0 6rem;
+}
+
+.feature > h2 {
+  text-align: center;
+  margin: 0 0 3rem;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.boxes > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  flex-basis: 18ch;
+}
+
+.boxes > div > img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.boxes > div > p {
+  text-align: center;
 }
