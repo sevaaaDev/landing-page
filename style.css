@@ -64,9 +64,14 @@ img {
 
 blockquote {
   font-size: 36px;
-  font-weight: lighter;
+  font-weight: 100;
   font-style: italic;
   color: #1f2937;
+}
+
+.quote-author {
+  font-weight: bolder;
+  font-size: 1.5rem;
 }
 
 /* ==== Layouting ==== */
@@ -157,5 +162,9 @@ blockquote {
 /* == Quote == */
 
 .quote {
-  /* margin: 10rem; */
+  padding: 10rem 5rem;
+}
+
+.quote-author {
+  text-align: right;
 }
