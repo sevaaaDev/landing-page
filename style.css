@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* ==== Styling ==== */
 
 .hero-section, .footer {
@@ -59,4 +63,27 @@ blockquote {
   font-weight: lighter;
   font-style: italic;
   color: #1f2937;
+}
+
+/* ==== Layouting ==== */
+
+.container {
+  width: 90%;
+  max-width: 115ch;
+  margin: 0 auto;
+}
+
+.navbar {
+  padding: 1rem 0;
+}
+
+.navbar > ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  align-items: baseline;
+}
+
+.header-logo {
+  margin-right: auto;
 }
