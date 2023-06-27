@@ -51,6 +51,7 @@ img {
 
 .cta, .btn-cta {
   background-color: #3882f6;
+  color: white;
 }
 
 .feature > h2 {
