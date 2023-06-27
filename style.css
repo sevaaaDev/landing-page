@@ -121,7 +121,7 @@ blockquote {
 /* == Feature == */
 
 .feature {
-  margin: 3rem 0 6rem;
+  padding: 3rem 0 6rem;
 }
 
 .feature > h2 {
@@ -152,4 +152,10 @@ blockquote {
 
 .boxes > div > p {
   text-align: center;
+}
+
+/* == Quote == */
+
+.quote {
+  /* margin: 10rem; */
 }
