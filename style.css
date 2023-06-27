@@ -36,6 +36,7 @@ img {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+  line-height: 1;
 }
 
 .hero-secondary-text, .header-link {
@@ -52,6 +53,7 @@ img {
 .cta, .btn-cta {
   background-color: #3882f6;
   color: white;
+  font-weight: bold;
 }
 
 .feature > h2 {
@@ -88,4 +90,25 @@ blockquote {
 
 .header-logo {
   margin-right: auto;
+}
+
+.hero {
+  display: flex;
+  padding: 10rem 0 13rem;
+  align-items: center;
+}
+
+.hero-main-text {
+  margin-bottom: 1rem;
+}
+
+.hero > img {
+  width: 50%;
+}
+
+.btn-cta {
+  display: inline-block;
+  padding: 0.6em 2em;
+  border-radius: 0.5em;
+  margin-top: 1rem;
 }
